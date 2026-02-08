@@ -12,13 +12,7 @@ const cors = require('cors')
 const routes = require('./routes/routes');
 
 const app = express()
-app.use(cors(
-    {
-        origin:'https://frontend-git-main-gunukula-rakeshs-projects.vercel.app/',
-        methods: ['GET','POST','DELETE'],
-        credentials: true,
-    }
-));
+app.use(cors());
 
     app.use(express.json())
 

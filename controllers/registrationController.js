@@ -48,8 +48,7 @@ const createRegistration = async(req,res) =>{
 
                 // res.send('Your password doesnt match');
             }
-            // res.status(200).json({message : 'Login Successfully'});
-            res.redirect('/index.html');
+            res.status(200).json({message : 'Login Successfully'});
         }
         catch(err) {
             res.status(500).json({message:'Server error'});

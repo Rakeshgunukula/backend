@@ -12,7 +12,9 @@ const cors = require('cors')
 const routes = require('./routes/routes');
 
 const app = express()
-app.use(cors())
+app.use(cors( {
+    origin:'https://frontend-blond-ten-4yhr83pw4k.vercel.app/';
+}))
 
     app.use(express.json())
 

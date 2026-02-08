@@ -14,7 +14,7 @@ const routes = require('./routes/routes');
 const app = express()
 app.use(cors(
     {
-        origin:'https://frontend-blond-ten-4yhr83pw4k.vercel.app/',
+        origin:'https://frontend-deusya4ek-gunukula-rakeshs-projects.vercel.app/',
         methods: ['GET','POST','DELETE'],
         credentials: true,
     }
